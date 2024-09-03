@@ -1,0 +1,54 @@
+img{
+    width: 100%;
+
+}
+.button img {
+    width: 25%;
+    margin-top: -220px;
+
+
+}
+.container{
+    margin: 150px auto;
+    align-items: center;
+    display: flex;
+    margin-left: 300px;
+}
+.banner img{
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    opacity: 2;
+    width: 100%;
+}
+.row{
+    overflow: hidden;
+}
+.col-sm-3:hover .inner{
+    display: block;
+    animation: innerrr 0.5s ease;
+}
+.row img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+/* .row img:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+    
+} */
+.inner{
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    display: none;
+}
+@keyframes innerrr{
+    from{
+        transform: translateY(40px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}

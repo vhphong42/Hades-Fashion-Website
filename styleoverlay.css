@@ -1,0 +1,212 @@
+
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.4s;
+  z-index: 1 !important;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 12px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+z-index: 5;
+  }
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 60px;
+  top: 40px;
+  right: 43px;
+z-index: 5;
+  }
+}
+.overlay22 {
+  width: 100%;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.4s;
+  z-index: 1 !important;
+}
+
+
+.overlay22 a {
+  padding: 12px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+.overlay22 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.closebtn2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 6;
+  }
+
+@media screen and (max-height: 450px) {
+  .overlay22 a {font-size: 20px}
+  .overlay22 .closebtn2 {
+  font-size: 60px;
+  top: 40px;
+  right: 43px;
+  z-index: 6;
+  }
+}
+.col-md-4{
+  width: 500px;
+  z-index: 3;
+  left: 68%;
+  height: 714px;
+  background-color: white;
+}
+.col-md-4 p {
+  font-weight: bold;
+  margin-left: 45px;
+  margin-top: 150px;
+}
+.col-md-4 input{
+    margin-left: 45px;
+    width: 360px;
+    height: 39px;
+    border: none;
+    background-color: darkgray;}
+
+
+/* Css Input */
+ 
+.Login{
+  margin-top: 132px;
+  width: 43%;
+  margin-left: 28%;
+  }
+  .Login input{
+      height: 54px;
+      border: none;
+      background-color: lightgray;
+  }
+  
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 9.5em 0 0 0 var(--hover);
+}
+.slide {
+  --color:white;
+  --hover: white;
+}
+
+
+.buttons button {
+  color: var(--color);
+  transition: 0.3s;
+}
+.buttons button.slide {
+  margin-left: 45px;
+    padding: 12;
+}
+.buttons button:hover, .buttons:focus {
+  border-color:black;
+  color:black;
+}
+
+.buttons button {
+  width: 133px;
+  background: black;
+  font: inherit;
+  padding: 1em 2em;
+}
+      .btlogin{
+      display: inline-flex;
+      margin-top: 45px;
+
+      }
+    
+    /* col-md-4-Calg */
+      hr {
+        width: 81%;
+        border-top: 3px solid;
+    }
+    .text{
+      margin-top: -111px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .GIOHANG{
+      margin-top: -97px;
+    }
+    .col-md-5{
+      width: 500px;
+      z-index: 3;
+      left: 68%;
+      height: 714px;
+      background-color: white;
+    }
+    .col-md-5 p {
+      font-weight: bold;
+      margin-left: 45px;
+      margin-top: 150px;
+    }
+    .col-md-5 input{
+        margin-left: 45px;
+        width: 360px;
+        height: 39px;
+        border: none;
+        background-color: darkgray;
+    }
+.total p{
+  margin-top: 0;
+}
+    

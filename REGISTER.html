@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hades</title>
+    <link rel="icon" href="./Images/IconHades/cfc236bacbfbb721694fc99189f6b1a3.jpg"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styleoverlay.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+</head>
+<style>
+    .Login{
+    margin-top: 132px;
+    width: 43%;
+    margin-left: 28%;
+    }
+    .Login input{
+        height: 54px;
+        border: none;
+        background-color: lightgray;
+    }
+    @keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 9.5em 0 0 0 var(--hover);
+}
+.slide {
+  --color:white;
+  --hover: white;
+}
+
+
+button {
+  color: var(--color);
+  transition: 0.3s;
+}
+button.slide {
+    padding: 12;
+}
+button:hover, button:focus {
+  border-color:black;
+  color:black;
+}
+
+button {
+  width: 133px;
+  background: black;
+  font: inherit;
+  padding: 1em 2em;
+}
+        .forget{
+            margin-left: 22px;
+        }
+        .forget:hover{
+            color: black;
+        }
+        .forget a {
+            color: black;
+        }
+.Logginn{
+  margin-left: -43px;
+    margin-top: 35px;
+    display: flex;
+
+}
+.gioitinh input{
+    height: 15px;
+}
+
+</style>
+<script>
+  $(Document).ready(function() {
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+              $('nav').addClass('sticky');
+            } else{
+              $('nav').removeClass('sticky');
+
+            }
+        });
+  });
+  function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    
+</script>
+<body>
+      <!-- Navbar -->
+        <div class=" navbar-fixed-top ">
+        <nav class=" navbar navbar-deafault  ">
+            <div class="container-fluid ">
+                <div class="menu">
+                    
+                        <a class="navbar-brand" href="#"><img class="brand-logo" src="./Images/IconHades/headerhades.webp" alt=""></a>
+                    
+                    <div class="menu ">
+                        <ul class="nav navbar-nav ">
+                          <li><a class="animation" href="./Hades.html">SHOP ALL</a> <img src="./Images/Animation/269858510_400978881784237_2773069039765727977_n_1dec697e894b44028881c14c6507f7d8 (1).png" alt=""></li>
+                          <li><a class="animation" href="./Tops.html">TOPS</a></li>
+                          <li><a class="animation" href="./Bottom.html">BOTTOMS</a></li>
+                          <li><a class="animation" href="./Outerwears.html">OUTERWEAR</a></li>
+                          <li><a class="animation" href="./Footswear.html">FOOTWEAR</a></li>
+                          <li><a class="animation" href="./hats.html">HAT</a></li>
+                          <li><a class="animation" href="./bags.html">BAGS</a></li>
+                          <li><a class="animation" href="./sale.html">SALE</a></li>
+                          <li><a class="animation" href="./recuitment.html">RECUITMENT</a></li>
+
+    
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="./Login.html"> ĐĂNG NHẬP/ĐĂNG KÍ</a></li>
+                            <li><a href="#"> TÌM KIẾM</a></li>
+                            <li><a href="#"> GIỎ HÀNG</a></li>
+                            <select >
+                                <option value="">VI</option>
+                                <option value="">EN</option>
+                            </select>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+        <div class="Login">
+            <h3>ĐĂNG KÝ</h3>
+            <div class="form-group">
+                <input type="text" placeholder="Họ" class="form-control" >
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Tên" class="form-control">
+            </div>
+            <form style="height:-54px" class="gioitinh">
+                <input type="radio" id="html" name="customer[gender]" value="HTML">
+                    <label for="html">NỮ</label>
+             <input style="margin-left: 25px;" type="radio" id="css" name="customer[gender]"  value="CSS">
+             <label for="css">NAM</label>
+            </form>
+            <div class="form-group">
+                <input type="datetime" placeholder="dd/mm/yyyy" class="form-control" >
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Mật khẩu" class="form-control" id="pwd">
+            <div class="Logginn">
+                <div class="buttons">
+                            <button class="slide">ĐĂNG KÝ</button>
+                </div>
+          
+            </div>
+            </div>
+               
+            </div>
+        </div>
+        </div>
+    
+</body>

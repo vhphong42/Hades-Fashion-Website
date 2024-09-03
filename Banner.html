@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hades</title>
+    <link rel="icon" href="./Images/IconHades/cfc236bacbfbb721694fc99189f6b1a3.jpg"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+</head>
+<style>
+.imgbanner img{
+    width: 100%;
+
+}
+
+.imgbanner p{
+    font-weight: 600;
+    display: none;
+    margin-top: -150px;
+    font-size: 22px;
+    text-align: center;
+}
+.imgbanner:hover img{
+    opacity: 0.4;
+}
+.imgbanner:hover p{  
+    color: black;
+    display: block;
+}
+.overlayBanner {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlayBanner a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.overlayBanner .closebtnBanner {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlayBanner a {font-size: 20px}
+  .overlayBanner .closebtnBanner {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+<script>
+    function closeNav() {
+      document.getElementById("myBanner").style.display = "none";
+    }
+    </script> 
+<body>
+    <div id="myBanner" class="overlaywhite">
+        <a  href="javascript:void(0)" class="closebtnBanner" onclick="closeNav()"><img style="width:50px;margin-left: 95%;" src="./Images/Animation/button.webp" alt=""></a>
+        <div class="container">
+            <div style="margin-top: 250px;" class="col-md-3 imgbanner">
+                <a href="#"><img src="./Images/Animation/img_noti_new_1.webp" alt=""> <p>NEWARRIVALS</p></a>
+            </div>
+            <div style="margin-top: 250px;" class="col-md-3 imgbanner">
+                <a href="#"><img src="./Images/Animation/img_noti_new_2.webp" alt=""><p>SALE</p></a>
+            </div>
+            <div style="margin-top: 250px;" class="col-md-3 imgbanner">
+                <a href="#"><img src="./Images/Animation/img_noti_new_3.webp" alt=""><p>STORES</p></a>
+            </div>
+            <div style="margin-top: 250px;" class="col-md-3 imgbanner">
+                <a href="#"><img src="./Images/Animation/img_noti_new_4.webp" alt=""><p>SOCIAL MEDIA</p></a>
+            </div>
+      </div>
+    </div>
+</body>

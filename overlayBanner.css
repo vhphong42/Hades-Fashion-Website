@@ -1,0 +1,65 @@
+/* Bannner */
+.imgbanner img{
+    width: 100%;
+
+}
+
+.imgbanner p{
+    font-weight: 600;
+    display: none;
+    margin-top: -150px;
+    font-size: 22px;
+    text-align: center;
+}
+.imgbanner:hover img{
+    opacity: 0.4;
+}
+.imgbanner:hover p{
+    color: black;
+    display: block;
+}
+.overlaywhite {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background-color:white;
+  opacity: 0.95;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlayBanner a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.overlayBanner .closebtnBanner {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlaywhite a {font-size: 20px}
+  .overlaywhite .closebtnBanner {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}

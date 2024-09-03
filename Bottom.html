@@ -1,0 +1,704 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hades</title>
+    <link rel="icon" href="./Images/IconHades/cfc236bacbfbb721694fc99189f6b1a3.jpg"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styleoverlay.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+</head>
+<script>
+  $(Document).ready(function() {
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+              $('nav').addClass('sticky');
+            } else{
+              $('nav').removeClass('sticky');
+
+            }
+        });
+  });
+  function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+function openMenu() {
+  document.getElementById("myMenu").style.width = "100%";
+}
+
+function closeMenu() {
+  document.getElementById("myMenu").style.width = "0%";
+}
+</script>
+
+<body>
+    <!-- Overlay  -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="col-md-4">
+              <p>TÌM KIẾM</p>
+              <input type="text" placeholder="TÌM KIẾM SẢN PHẨM...">
+        </div>
+  </div>
+  <div id="myMenu" class="overlay22">
+    <a href="javascript:void(0)" class="closebtn2" onclick="closeMenu()">&times;</a>
+    <div class="col-md-4">
+      <div class="PAY">
+        <p>GIỎ HÀNG</p>
+      <p style="margin-top: 47px;">Sản phẩm hiện có </p>
+      <hr>
+      </div>
+      <div class="total">
+        <p>TOTAL</p>
+        <p >0đ</p>
+      </div>
+      <div class="btlogin">
+        <div class="buttons">
+          <button class="slide">XEM GIỎ HÀNG</button>
+          <button class="slide">THANH TOÁN</button>
+
+        </div>
+
+      </div>
+  </div>
+  </div>
+    <div class=" navbar-fixed-top ">
+        <nav class=" navbar navbar-deafault  ">
+            <div class="container-fluid ">
+                <div class="menu">
+                    
+                        <a class="navbar-brand" href="#"><img class="brand-logo" src="./Images/IconHades/headerhades.webp" alt=""></a>
+                    
+                    <div class="menu ">
+                        <ul class="nav navbar-nav ">
+                          <li><a class="animation" href="./Hades.html">SHOP ALL</a> <img src="./Images/Animation/269858510_400978881784237_2773069039765727977_n_1dec697e894b44028881c14c6507f7d8 (1).png" alt=""></li>
+                          <li><a class="animation" href="./Tops.html">TOPS</a></li>
+                          <li><a class="animation" href="./Bottom.html">BOTTOMS</a></li>
+                          <li><a class="animation" href="./Outerwears.html">OUTERWEAR</a></li>
+                          <li><a class="animation" href="./Footswear.html">FOOTWEAR</a></li>
+                          <li><a class="animation" href="./hats.html">HAT</a></li>
+                          <li><a class="animation" href="./bags.html">BAGS</a></li>
+                          <li><a class="animation" href="./sale.html">SALE</a></li>
+                          <li><a class="animation" href="./recuitment.html">RECUITMENT</a></li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="assets/Login.html"> ĐĂNG NHẬP/ĐĂNG KÍ</a></li>
+                          <li><a href="#" style="cursor:pointer;" onclick="openNav()"> TÌM KIẾM</a></li>
+                          <li><a href="#" style="cursor:pointer;" onclick="openMenu()"> GIỎ HÀNG</a></li>
+                            <select >
+                                <option value="">VI</option>
+                                <option value="">EN</option>
+                            </select>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+          </nav>
+    </div>
+        
+    <div  class=" container-fluid">
+      <!-- menu clothing -->
+      <div class="col-md-3">
+          <div class="content">
+            <a href=""><img src="./Images/Bottoms/vung1.webp" alt="">                 
+          </a>
+          <div class="btn-container">
+            <a class="nut">Mua Ngay  </a>   
+            <a class="nut">Thêm vào giỏ</a>
+          </div>
+          <div class="noticeclothing">
+            <div class="mausanpham">
+              
+        </div>
+        <div class="tensanpham">
+            <a href="#"><h5>CARDINALS SHORTS            </h5>			
+            </a>
+        </div>
+        <div class="giasanpham">
+          <p>360,000₫   </p>
+        </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="content">
+          <a href=""><img src="./Images/Bottoms/vung12.webp" alt="">                 
+        </a>
+        <div class="btn-container">
+          <a class="nut">Mua Ngay  </a>   
+          <a class="nut">Thêm vào giỏ</a>
+        </div>
+        <div class="noticeclothing">
+          <div class="mausanpham">
+            
+      </div>
+      <div class="tensanpham">
+          <a href="#"><h5>FACADE PANT        </h5>			
+          </a>
+      </div>
+      <div class="giasanpham">
+        <p>660,000₫        </p>
+      </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-3">     
+      <div class="content">
+        <a href=""><img src="./Images/Bottoms/vung13.webp" alt="">                 
+      </a>
+      <div class="btn-container">
+        <a class="nut">Mua Ngay  </a>   
+        <a class="nut">Thêm vào giỏ</a>
+      </div>
+        <div class="noticeclothing">
+          <div class="mausanpham">
+            
+      </div>
+      <div class="tensanpham">
+          <a href="#"><h5> CURVED SHORT        </h5>			
+          </a>
+      </div>
+      <div class="giasanpham">
+        <p>870,000₫   </p>
+      </div>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-3">
+    <div class="content">
+      <a href=""><img src="./Images/Bottoms/vung14.webp" alt="">                 
+    </a>
+    <div class="btn-container">
+      <a class="nut">Mua Ngay  </a>   
+      <a class="nut">Thêm vào giỏ</a>
+    </div>
+    <div class="noticeclothing">
+      <div class="mausanpham">
+        
+  </div>
+  <div class="tensanpham">
+      <a href="#"><h5>MULTI TROUSER PANTS    </h5>			
+      </a>
+  </div>
+  <div class="giasanpham">
+    <p>330,000₫   </p>
+  </div>
+    </div>
+    </div>
+</div>
+    </div>  
+      <!-- menuclothingvung2 -->
+      <div  class=" container-fluid">
+        <div class="col-md-3">
+            <div class="content">
+              <a href=""><img src="./Images/Bottoms/vung2.webp" alt="">                 
+            </a>
+            <div class="btn-container">
+              <a class="nut">Mua Ngay  </a>   
+              <a class="nut">Thêm vào giỏ</a>
+            </div>
+            <div class="noticeclothing">
+              <div class="mausanpham">
+                
+          </div>
+          <div class="tensanpham">
+              <a href="#"><h5>
+                HINGE CARGO PANTS
+
+
+            </h5>			
+              </a>
+          </div>
+          <div class="giasanpham">
+            <p>390,000₫   </p>
+          </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <a href=""><img src="./Images/Bottoms/vung22.webp" alt="">                 
+          </a>
+          <div class="btn-container">
+            <a class="nut">Mua Ngay  </a>   
+            <a class="nut">Thêm vào giỏ</a>
+          </div>
+          <div class="noticeclothing">
+            <div class="mausanpham">
+              
+        </div>
+        <div class="tensanpham">
+            <a href="#"><h5>CHESS ZIP PANTS
+
+            </h5>			
+            </a>
+        </div>
+        <div class="giasanpham">
+          <p>420,000₫        </p>
+        </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-3">     
+        <div class="content">
+          <a href=""><img src="./Images/Bottoms/vung23.webp" alt="">                 
+        </a>
+        <div class="btn-container">
+          <a class="nut">Mua Ngay  </a>   
+          <a class="nut">Thêm vào giỏ</a>
+        </div>
+          <div class="noticeclothing">
+            <div class="mausanpham">
+              
+        </div>
+        <div class="tensanpham">
+            <a href="#"><h5>BEIGE PANTS
+            </h5>			
+            </a>
+        </div>
+        <div class="giasanpham">
+          <p>670,000₫   </p>
+        </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="content">
+        <a href=""><img src="./Images/Bottoms/vung24.webp" alt="">                 
+      </a>
+      <div class="btn-container">
+        <a class="nut">Mua Ngay  </a>   
+        <a class="nut">Thêm vào giỏ</a>
+      </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>ORDINARY TRACK PANTS
+
+        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>420,000₫   </p>
+    </div>
+      </div>
+      </div>
+  </div>
+      </div> 
+      <!-- menuclothingvung3  -->
+      <div  class=" container-fluid">
+        <div class="col-md-3">
+            <div class="content">
+              <a href=""><img src="./Images/Bottoms/vung3.webp" alt="">                 
+            </a>
+            <div class="btn-container">
+              <a class="nut">Mua Ngay  </a>   
+              <a class="nut">Thêm vào giỏ</a>
+            </div>
+            <div class="noticeclothing">
+              <div class="mausanpham">
+                
+          </div>
+          <div class="tensanpham">
+              <a href="#"><h5>EMERY SHORTS
+
+            </h5>			
+              </a>
+          </div>
+          <div class="giasanpham">
+            <p>390,000₫   </p>
+          </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <a href=""><img src="./Images/Bottoms/vung32.webp" alt="">                 
+          </a>
+          <div class="btn-container">
+            <a class="nut">Mua Ngay  </a>   
+            <a class="nut">Thêm vào giỏ</a>
+          </div>
+          <div class="noticeclothing">
+            <div class="mausanpham">
+              
+        </div>
+        <div class="tensanpham">
+            <a href="#"><h5>MARBLE CARGO PANTS
+
+            </h5>			
+            </a>
+        </div>
+        <div class="giasanpham">
+          <p>420,000₫        </p>
+        </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-3">     
+        <div class="content">
+          <a href=""><img src="./Images/Bottoms/vung33.webp" alt="">                 
+        </a>
+        <div class="btn-container">
+          <a class="nut">Mua Ngay  </a>   
+          <a class="nut">Thêm vào giỏ</a>
+        </div>
+          <div class="noticeclothing">
+            <div class="mausanpham">
+              
+        </div>
+        <div class="tensanpham">
+            <a href="#"><h5>BIG POCKET SHORTS
+
+            </h5>			
+            </a>
+        </div>
+        <div class="giasanpham">
+          <p>670,000₫   </p>
+        </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="content">
+        <a href=""><img src="./Images/Bottoms/vung34.webp" alt="">                 
+      </a>
+      <div class="btn-container">
+        <a class="nut">Mua Ngay  </a>   
+        <a class="nut">Thêm vào giỏ</a>
+      </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>HADES TRACK SHORTS        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>420,000₫   </p>
+    </div>
+      </div>
+      </div>
+  </div>
+    
+</div>  
+ <!-- menuclothingvung4 -->
+ <div  class=" container-fluid">
+    <div class="col-md-3">
+        <div class="content">
+          <a href=""><img src="./Images/Bottoms/vung4.webp" alt="">                 
+        </a>
+        <div class="btn-container">
+          <a class="nut">Mua Ngay  </a>   
+          <a class="nut">Thêm vào giỏ</a>
+        </div>
+        <div class="noticeclothing">
+          <div class="mausanpham">
+            
+      </div>
+      <div class="tensanpham">
+          <a href="#"><h5>HADES GLOSSY WATER SHORTS
+        </h5>			
+          </a>
+      </div>
+      <div class="giasanpham">
+        <p>390,000₫   </p>
+      </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="content">
+        <a href=""><img src="./Images/Bottoms/vung42.webp" alt="">                 
+      </a>
+      <div class="btn-container">
+        <a class="nut">Mua Ngay  </a>   
+        <a class="nut">Thêm vào giỏ</a>
+      </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>HADES SIGNATURE CARGO PANTS
+
+        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>420,000₫        </p>
+    </div>
+      </div>
+      </div>
+  </div>
+  <div class="col-md-3">     
+    <div class="content">
+      <a href=""><img src="./Images/Bottoms/vung43.webp" alt="">                 
+    </a>
+    <div class="btn-container">
+      <a class="nut">Mua Ngay  </a>   
+      <a class="nut">Thêm vào giỏ</a>
+    </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>		BASIC SHORTS
+        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>670,000₫   </p>
+    </div>
+      </div>
+    </div>
+</div>
+<div class="col-md-3">
+  <div class="content">
+    <a href=""><img src="./Images/Bottoms/vung44.webp" alt="">                 
+  </a>
+  <div class="btn-container">
+    <a class="nut">Mua Ngay  </a>   
+    <a class="nut">Thêm vào giỏ</a>
+  </div>
+  <div class="noticeclothing">
+    <div class="mausanpham">
+      
+</div>
+<div class="tensanpham">
+    <a href="#"><h5>HADES / NEW BALANCE TROUSER PANTS
+    </h5>			
+    </a>
+</div>
+<div class="giasanpham">
+  <p>420,000₫   </p>
+</div>
+  </div>
+  </div>
+</div>
+
+</div> 
+<!-- menuclothingvung5 -->
+<div  class=" container-fluid">
+    <div class="col-md-3">
+        <div class="content">
+          <a href=""><img src="./Images/Bottoms/vung5.webp" alt="">                 
+        </a>
+        <div class="btn-container">
+          <a class="nut">Mua Ngay  </a>   
+          <a class="nut">Thêm vào giỏ</a>
+        </div>
+        <div class="noticeclothing">
+          <div class="mausanpham">
+            
+      </div>
+      <div class="tensanpham">
+          <a href="#"><h5>RACE TRACK PANTS
+        </h5>			
+          </a>
+      </div>
+      <div class="giasanpham">
+        <p>390,000₫   </p>
+      </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="content">
+        <a href=""><img src="./Images/Bottoms/vung52.webp" alt="">                 
+      </a>
+      <div class="btn-container">
+        <a class="nut">Mua Ngay  </a>   
+        <a class="nut">Thêm vào giỏ</a>
+      </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>ESSENTIAL TROUSER PANTS
+
+        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>420,000₫        </p>
+    </div>
+      </div>
+      </div>
+  </div>
+  <div class="col-md-3">     
+    <div class="content">
+      <a href=""><img src="./Images/Bottoms/vung53.webp" alt="">                 
+    </a>
+    <div class="btn-container">
+      <a class="nut">Mua Ngay  </a>   
+      <a class="nut">Thêm vào giỏ</a>
+    </div>
+      <div class="noticeclothing">
+        <div class="mausanpham">
+          
+    </div>
+    <div class="tensanpham">
+        <a href="#"><h5>			HADES BLACK CORDUROY PANTS
+
+        </h5>			
+        </a>
+    </div>
+    <div class="giasanpham">
+      <p>670,000₫   </p>
+    </div>
+      </div>
+    </div>
+</div>
+<div class="col-md-3">
+  <div class="content">
+    <a href=""><img src="./Images/Bottoms/vung54.webp" alt="">                 
+  </a>
+  <div class="btn-container">
+    <a class="nut">Mua Ngay  </a>   
+    <a class="nut">Thêm vào giỏ</a>
+  </div>
+  <div class="noticeclothing">
+    <div class="mausanpham">
+      
+</div>
+<div class="tensanpham">
+    <a href="#"><h5>H BLACK TROUSER PANTS
+    </h5>			
+    </a>
+</div>
+<div class="giasanpham">
+  <p>420,000₫   </p>
+</div>
+  </div>
+  </div>
+</div>
+
+</div> 
+     
+  
+  <!-- layout3 -->
+  <marquee behavior="loop" direction="left"><h1>New Arrivals&nbsp;&nbsp;&nbsp; New Arrivals&nbsp;&nbsp;&nbsp; New Arrivals</h1></marquee>
+  
+  <!-- layou4 -->
+  <div class="layout4">
+    <div class="container-fluid">
+      <div class="col-md-3">
+            
+              <h3><b>HỆ THỐNG CỬA HÀNG HADES</b></h3>              
+            <ul>
+              <li>
+                Hades FLAGSHIP STORE: 69 QUANG TRUNG STREET, GO VAP DISTRICT, HOCHIMINH.
+              </li>
+              <li>
+                Store 2: 26 LY TU TRONG STREET, DISTRICT 1, HOCHIMINH (THE NEW PLAYROUND).
+              </li>
+              <li>
+                Store 3: 350 DIEN BIEN PHU STREET, WARD 7, BINH THANH DISTRICT, HOCHIMINH (G-TOWN).
+              </li>
+              <li>
+                Store 4: 4 PHAM NGU LAO STREET, DISTRICT 1, HOCHIMINH.
+              </li>
+              <li>
+                Store 5: 136 NGUYEN HONG DAO STREET, TAN BINH DISTRICT, HOCHIMINH.
+              </li>
+              <li>
+                Store 6: VINCOM SHOPHOUSE, BIEN HOA.
+              </li>
+              <li>
+                Store 7: FLOOR 7 - BLOCK B2 - VINCOM BA TRIEU, HANOI.
+              </li>
+              <li>
+                Store 8: 56 MAU THAN, NINH TRIEU DISTRICT, CANTHO.
+              </li>
+            </ul>
+      </div>
+      <div class="col-md-3">
+            <h3><b>CHÍNH SÁCH</b></h3>
+            <ul>
+                <li>
+                  <a href="">                    Chính sách sử dụng website
+                  </a>
+                </li>
+                <li>
+                  <a href="">Phương thức thanh toán</a>
+                </li>
+                <li>
+                  <a href="">Chính sách đổi trả</a>
+                </li>
+                <li>
+                  <a href="">Chính sách giao nhận- vận chuyển</a>
+                </li>
+                <li>
+                  <a href="">Điều khoản dịch vụ </a>
+                </li>
+                <li>
+                  <a href="">Hướng dẫn mua hàng</a>
+                </li>
+                <li>
+                  <a href="">Chính sách bảo mật</a>
+                </li>
+            </ul>
+      </div>
+      <div class="col-md-3">
+          <h3><b>THÔNG TIN LIÊN HỆ</b></h3>
+            <ul>
+                <li>CÔNG TY TNHH HADES Địa chỉ: 45 Phan Chu Trinh, P. Bến Thành, Quận 1, TP. Hồ Chí Minh
+                </li>
+                <li>
+                  SỐ CSKH: 02873011021 (10h -18h)
+                </li>
+                <li>
+                  Ngày cấp: 20/07/2020
+                </li>
+                <li>
+                  Tuyển dụng: hr@hades.vn
+                </li>
+                <li>
+                  Website: hades.vn
+                </li>
+                <li>
+                  Liên hệ CSKH: support@hades.vn
+                </li>
+                <li>
+                  For business: contact@hades.vn
+                </li>
+            </ul>       
+      </div>
+      <div class="col-md-3">
+          <h3 style="margin-left: 0px"><b>FOLLOW US ON SOCIAL MEDIA
+          </b></h3>
+          <i class="fa fa-facebook-square" style="font-size:36px"></i>
+          <i class="fa fa-instagram" style="font-size:36px"></i>
+            <img style="width: 141px;height:53px ;" src="./Images/notice/bocongthuong.webp" alt="">
+      </div>
+
+</div>
+  </div>
+    <div class="navbar-fixed-bottom">
+      <div class="chuchay">
+        <a href="#">    <marquee behavior="loop" direction="left"><b>GET TO KNOW ABOUT OUR VIBE</b> 2022 HADES™</marquee>
+        </a>
+      </div>
+    </div>
+</body>
+
+
+

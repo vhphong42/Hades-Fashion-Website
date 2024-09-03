@@ -1,0 +1,20 @@
+.create{
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+.col-md-12{
+    margin-bottom: 50px;
+}
+img{
+    width: 100%;
+}
+.rcm {margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.rcm p{
+    font-weight: bold;
+}
+.rcm li{
+    font-weight: 500;
+}

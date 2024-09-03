@@ -1,0 +1,250 @@
+body{
+    font-family:Quicksand;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav.navbar.navbar-deafault.sticky {
+    background: white;
+}
+
+
+.animation{
+    position: relative;
+}
+.animation::after{
+    background-color: initial;
+    background-image: url(https://file.hstatic.net/1000306633/file/269858510_400978881784237_2773069039765727977_n_1dec697e894b44028881c14c6507f7d8.png) !important;
+    background-repeat: no-repeat;
+    background-size: 3.5em 2.5em;
+    content: "";
+    display: none;
+    height: 3.25em;
+    z-index: 999999;
+    position: absolute;
+    left: 17px;
+    top: 12px;
+    width: 4.125em;
+}
+
+.menu li:hover .animation::after {
+    display: block;
+}
+
+.navbar-right {
+    margin-left: 235px;
+}
+.brand-logo {
+    width: 100%;
+    height: 150%;
+    object-fit: contain;
+    margin-top: -9px;
+}
+.navbar-nav img{
+    display: none;
+}
+.navbar-nav:hover img{
+    width: 82%;
+    position: absolute;
+    margin: top;
+    margin-top: -38px;
+    margin-left: 9px;}
+.navbar-brand{
+    width: 20%;
+}
+select {
+    background-color: black;
+    color: white;
+    margin-top: 7px;
+}
+li.navbar-right{
+    color: black;
+}
+.navbar-nav>li>a {
+    margin-top: -6px;
+    font-size: 10px;
+    color: black;
+    background-color: transparent !important;
+    }
+.carousel-control {
+    color: black;
+        top: 92%;
+        right: 62px;
+       
+    }
+ a.left.carousel-control {
+        color: black;
+        margin-left: 81%;
+        width: 92px
+ }
+ a.right.carousel-control {
+    color: black;
+
+    width: 86px;
+    margin-right: 99px;
+}
+.container-fluid {
+    
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 12px;
+}
+.col-md-4 img {
+    width: 491px;
+    height: 673px;
+}
+.col-md-1 img{
+    width: 1504px;
+    height: 850px;
+}
+/* text-transform: uppercase */
+ h1 {
+    text-shadow: 1px 1px 3px black;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: inherit;
+    color: white;
+}
+/* .col-md-3 li img:hover{
+    transform: scale(1.1);
+} */
+.content:hover img {
+    transform: scale(1.1);
+    transition:  0.2s ease-in-out;
+
+}
+
+
+.col-md-3 li a img:hover .nut{
+   display: block;
+}
+
+.content:hover .nut{
+    display: inline-block;
+    
+
+}
+
+
+.btn-container {
+    position: absolute;
+    left: 13%;
+    bottom: 90px;
+    
+    
+
+}
+/* @keyframes .btn-container{
+    from{
+        transform: translateY(40px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+} */
+.nut {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    
+
+    bottom: 1px;  
+     left: 15%;
+    display: none;
+    
+}
+
+ a:hover{ 
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.col-md-3 ul{
+    list-style: none;
+
+}
+
+
+
+.col-md-3 img{
+    width: 100%;
+}
+
+
+.container-fluid-layout2{
+    background-color: black;
+}
+.layout4 a{
+color: black;
+}
+.layout4 h3 {
+    text-transform: inherit;
+    margin-left: 38px;
+    font-size: 16px;}
+.layout4 li {
+    font-weight: 100;
+        }
+.layout3  a{
+    color:white;
+
+}
+
+.layout3  a:hover{
+    color:black;
+
+}
+.chuchay{
+    
+    height: 35px;
+    background-color: black;
+}
+.chuchay b {
+    margin-top: 10px;
+    color:rgb(13, 185, 13);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.chuchay a{
+    color: white;
+}
+h5:hover{
+    color: black;
+}
+h5{
+   font-family:Oswald;
+    font-weight:bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.noticeclothing{
+    text-align: center;
+}
+.mausanpham {
+    background-color: #4e342e;
+    margin: 0 auto;
+    width: 4%;
+    height: 15px;
+}
+.page {
+    margin-left: 50%;
+
+}
+.page1  { 
+    border: none !important;
+    color: black !important;
+
+}
+.Recuitment p{
+    font-size: 12px;
+    text-align: left;
+    
+
+}
+.tensanpham2 h5{
+    text-align: left;
+}
+
